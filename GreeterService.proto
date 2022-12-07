@@ -1,0 +1,9 @@
+package greeter PKG;
+service greeter
+{
+rpc sayhello(msg) returns(msg)
+}
+message msg
+{
+string str = 1
+}
